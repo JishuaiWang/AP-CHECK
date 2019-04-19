@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d122e"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/left_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_widthPercent="25%">
+        　　　　 <!-- 可以在这个容器中动态加载Fragment -->
+        <fragment
+            android:id="@+id/left_fragment"
+            android:name="com.example.kunrui.apcheck.SideBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/right_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_marginLeftPercent = "25%"
+        app:layout_widthPercent="75%">
+        　　　　 <!-- 可以在这个容器中动态加载Fragment -->
+        <fragment
+            android:id="@+id/right_fragment"
+            android:name="com.example.kunrui.apcheck.FragmentRight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</android.support.percent.PercentRelativeLayout>

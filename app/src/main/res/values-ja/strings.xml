@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">APチェック</string>
+	<string name="homeWeb" translatable="false">ホーム</string>
+	<string name="language" translatable="false">言語切り替え</string>
+	<string name="wifi_config" translatable="false">ルーティング設定</string>
+	<string name="wifi_temporary" translatable="false">仮ルート</string>
+	<string name="wifi_temporar_set" translatable="false">一時的なルーティング設定</string>
+	<string name="set" translatable="false">設定</string>
+	<string name="scan" translatable="false">スキャンする</string>
+	<string name="pass" translatable="false">パスワード</string>
+	<string name="address" translatable="false">住所</string>
+	<string name="reset" translatable="false">デフォルトに戻す</string>
+	<string name="SSID_default" translatable="false">デフォルトルート</string>
+	<string name="ID" translatable="false">製造番号</string>
+	<string name="SSID" translatable="false">SSID</string>
+	<string name="PASSWORD" translatable="false">パスワード</string>
+	<string name="url" translatable="false">パス</string>
+	<string name="save" translatable="false">保存する</string>
+	<string name="cancel" translatable="false">キャンセル</string>
+	<string name="error" translatable="false">不明なエラー</string>
+	<string name="china" translatable="false">中国</string>
+	<string name="English" translatable="false">英語</string>
+	<string name="japan" translatable="false">日本</string>
+	<string name="french" translatable="false">フランス語</string>
+	<string name="title" translatable="false">ニューラルネットワーク</string>
+	<string name="explain" translatable="false">周囲の環境を確認するか、HOMEボタンをクリックしてもう一度やり直してください。</string>
+	<string name="NoPass" translatable="false">パスワードなし</string>
+	<string name="scan_ing" translatable="false">スキャン中</string>
+	<string name="scan_end" translatable="false">スキャン終了</string>
+	<string name="gps" translatable="false">GPSがオンになっていません</string>
+	<string name="pos_cue" translatable="false">場所を取得できませんでした。場所のアクセス許可が有効になっていません。</string>
+	<string name="save_success" translatable="false">保存しました</string>
+	<string name="set_success" translatable="false">セットアップ成功</string>
+
+</resources>

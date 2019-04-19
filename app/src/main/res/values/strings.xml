@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">AP CHECK</string>
+    <string name="homeWeb" translatable="false">首页</string>
+    <string name="language" translatable="false">语言切换</string>
+    <string name="wifi_config" translatable="false">路由配置</string>
+    <string name="wifi_temporary" translatable="false">临时路由</string>
+    <string name="wifi_temporar_set" translatable="false">临时路由设置</string>
+    <string name="set" translatable="false">设置</string>
+    <string name="scan" translatable="false">扫描</string>
+    <string name="pass" translatable="false">密码</string>
+    <string name="address" translatable="false">地址</string>
+    <string name="reset" translatable="false">恢复默认</string>
+    <string name="SSID_default" translatable="false">默认路由</string>
+    <string name="ID" translatable="false">序号</string>
+    <string name="SSID" translatable="false">SSID</string>
+    <string name="PASSWORD" translatable="false">密码</string>
+    <string name="url" translatable="false">路径</string>
+    <string name="save" translatable="false">保存</string>
+    <string name="cancel" translatable="false">取消</string>
+    <string name="error" translatable="false">未知错误</string>
+    <string name="china" translatable="false">中文</string>
+    <string name="English" translatable="false">英语</string>
+    <string name="japan" translatable="false">日语</string>
+    <string name="french" translatable="false">法语</string>
+    <string name="title" translatable="false">神经节点</string>
+    <string name="explain" translatable="false">请检查周边环境或点击HOME键重试</string>
+    <string name="NoPass" translatable="false">没有密码</string>
+    <string name="scan_ing" translatable="false">扫描中</string>
+    <string name="scan_end" translatable="false">扫描结束</string>
+    <string name="gps" translatable="false">GPS未打开</string>
+    <string name="pos_cue" translatable="false">获取位置失败，未开启定位权限!</string>
+    <string name="save_success" translatable="false">保存成功</string>
+    <string name="set_success" translatable="false">设置成功</string>
+
+    <string-array name="language_l">
+        <item>中文</item>
+        <item>English</item>
+        <item>日本語</item>
+        <item>Le français</item>
+    </string-array>
+</resources>

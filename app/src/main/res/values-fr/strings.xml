@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">VÉRIFICATION AP</string>
+	<string name="homeWeb" translatable="false">Accueil</string>
+	<string name="language" translatable="false">Changement de langue</string>
+	<string name="wifi_config" translatable="false">Configuration du routage</string>
+	<string name="wifi_temporary" translatable="false">Itinéraire temporaire</string>
+	<string name="wifi_temporar_set" translatable="false">Paramètres de routage temporaires</string>
+	<string name="set" translatable="false">Réglage</string>
+	<string name="scan" translatable="false">Scan</string>
+	<string name="pass" translatable="false">Mot de passe</string>
+	<string name="address" translatable="false">Adresse</string>
+	<string name="reset" translatable="false">Restaurer les valeurs par défaut</string>
+	<string name="SSID_default" translatable="false">Itinéraire par défaut</string>
+	<string name="ID" translatable="false">Numéro de série</string>
+	<string name="SSID" translatable="false">SSID</string>
+	<string name="PASSWORD" translatable="false">Mot de passe</string>
+	<string name="url" translatable="false">Chemin</string>
+	<string name="save" translatable="false">Enregistrer</string>
+	<string name="cancel" translatable="false">Annuler</string>
+	<string name="error" translatable="false">Erreur inconnue</string>
+	<string name="china" translatable="false">Chine</string>
+	<string name="English" translatable="false">Anglais</string>
+	<string name="japan" translatable="false">Le japon</string>
+	<string name="french" translatable="false">Le français</string>
+	<string name="title" translatable="false">Réseau de neurones</string>
+	<string name="explain" translatable="false">Veuillez vérifier l\'environnement ou cliquez sur le bouton HOME pour réessayer.</string>
+	<string name="NoPass" translatable="false">Pas de mot de passe</string>
+	<string name="scan_ing" translatable="false">Numérisation</string>
+	<string name="scan_end" translatable="false">Fin de scan</string>
+	<string name="gps" translatable="false">GPS n\'est pas allumé</string>
+	<string name="pos_cue" translatable="false">Échec d\'obtention de l\'emplacement, l\'autorisation d\'emplacement n\'est pas activée!</string>
+	<string name="save_success" translatable="false">Enregistré avec succès</string>
+	<string name="set_success" translatable="false">Configuration réussie</string>
+
+</resources>

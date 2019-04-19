@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d122e"
+    android:orientation="vertical"
+    android:screenOrientation="portrait">
+
+    <TextView
+        android:textColor="#FFFFFFFF"
+        android:id="@+id/defaultSSID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="12%"
+        app:layout_widthPercent="20%"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_marginLeftPercent = "1%"
+        app:layout_marginTopPercent="6%"
+        android:text="@string/SSID_default" />
+
+    <Spinner
+        android:id="@+id/list_SSID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="48%"
+        app:layout_heightPercent="12%"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_marginLeftPercent = "25%"
+        app:layout_marginTopPercent="6%" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="12%"
+        app:layout_widthPercent="24%"
+        android:gravity="center"
+        app:layout_marginLeftPercent = "76%"
+        app:layout_marginTopPercent="6%"
+        android:text="@string/save" />
+
+    <ScrollView
+        android:scrollbarThumbVertical="@drawable/scroll_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="40%"
+        app:layout_widthPercent="96%"
+        app:layout_marginLeftPercent = "2%"
+        app:layout_marginTopPercent="28%"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:typeface="monospace">
+
+        <LinearLayout
+            android:id="@+id/SSID_List"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:typeface="monospace"
+            tools:ignore="ScrollViewSize" />
+    </ScrollView>
+
+    <TextView
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent = "2%"
+        app:layout_marginTopPercent="17%"
+        android:text="@string/ID" />
+
+    <TextView
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent = "26%"
+        app:layout_marginTopPercent="17%"
+        android:text="@string/SSID" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent = "50%"
+        app:layout_marginTopPercent="17%"
+        android:text="@string/PASSWORD" />
+
+    <TextView
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent = "74%"
+        app:layout_marginTopPercent="17%"
+        android:text="@string/url" />
+
+    <Button
+        android:id="@+id/set"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginLeftPercent = "78%"
+        app:layout_marginTopPercent="71%"
+        android:text="@string/set" />
+
+    <Button
+        android:id="@+id/scan"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginLeftPercent = "60%"
+        app:layout_marginTopPercent="71%"
+        android:text="@string/scan" />
+
+    <TextView
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="15%"
+        app:layout_marginLeftPercent = "5%"
+        app:layout_marginTopPercent="72%"
+        android:textSize="16sp"
+        android:text="@string/wifi_temporary" />
+
+    <Spinner
+        android:id="@+id/scan_list"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="35%"
+        app:layout_marginLeftPercent = "25%"
+        app:layout_marginTopPercent="72%"/>
+
+</android.support.percent.PercentRelativeLayout>

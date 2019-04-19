@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">AP CHECK</string>
+	<string name="homeWeb" translatable="false">Home</string>
+	<string name="language" translatable="false">Language switching</string>
+	<string name="wifi_config" translatable="false">Routing configuration</string>
+	<string name="wifi_temporary" translatable="false">Temporary route</string>
+	<string name="wifi_temporar_set" translatable="false">Temporary routing settings</string>
+	<string name="set" translatable="false">Setting</string>
+	<string name="scan" translatable="false">scanning</string>
+	<string name="pass" translatable="false">password</string>
+	<string name="address" translatable="false">address</string>
+	<string name="reset" translatable="false">default</string>
+	<string name="SSID_default" translatable="false">Default route</string>
+	<string name="ID" translatable="false">Serial number</string>
+	<string name="SSID" translatable="false">SSID</string>
+	<string name="PASSWORD" translatable="false">password</string>
+	<string name="url" translatable="false">path</string>
+	<string name="save" translatable="false">save</string>
+	<string name="cancel" translatable="false">cancel</string>
+	<string name="error" translatable="false">unknown mistake</string>
+	<string name="china" translatable="false">China</string>
+	<string name="English" translatable="false">English</string>
+	<string name="japan" translatable="false">Japan</string>
+	<string name="french" translatable="false">French</string>
+	<string name="title" translatable="false">Neural Node</string>
+	<string name="explain" translatable="false">Please check the surrounding environment or click the HOME button to try again</string>
+	<string name="NoPass" translatable="false">without password</string>
+	<string name="scan_ing" translatable="false">Scanning</string>
+	<string name="scan_end" translatable="false">End of scan</string>
+	<string name="gps" translatable="false">GPS is not turned on</string>
+	<string name="pos_cue" translatable="false">Failed to get location, location permission is not enabled!</string>
+	<string name="save_success" translatable="false">Successfully saved</string>
+	<string name="set_success" translatable="false">Successful setup</string>
+
+</resources>
